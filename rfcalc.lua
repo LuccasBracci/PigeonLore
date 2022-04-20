@@ -17,7 +17,7 @@ local nop = 1
 
 --ez cenmen
 
-function ezpc ()
+--function ezpc ()
 
 
 --draw menu
