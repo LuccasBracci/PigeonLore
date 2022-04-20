@@ -1,7 +1,7 @@
 --ez time
 function tm (t)
     local t = textutils.formatTime(os.time())
-
+end
 
 --print center
 
@@ -14,6 +14,11 @@ local w,h =term.getSize()
 	end
 
 local nop = 1
+
+--ez cenmen
+
+function ezpc ()
+
 
 --draw menu
 
@@ -76,5 +81,7 @@ term.clear()
 if nop == 1 then
 	shell.run("rom/rft")
 elseif nop == 2 then
+
 	print("fartbeans" .. tm(t))
+
 end 
