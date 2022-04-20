@@ -1,3 +1,8 @@
+--ez time
+function tm (t)
+    local t = textutils.formatTime(os.time())
+
+
 --print center
 
 local w,h =term.getSize()
