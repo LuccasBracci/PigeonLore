@@ -72,4 +72,4 @@ if nop == 1 then
 	shell.run("rom/rft")
 elseif nop == 2 then
 	print("fartbeans" .. textutils.formatTime(os.time()))
-end
+end 
