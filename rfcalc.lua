@@ -82,6 +82,8 @@ if nop == 1 then
 	shell.run("rom/rft")
 elseif nop == 2 then
 
-	print("fartbeans" .. tm(t))
+	pcen(math.floor(h/2), print("fartbeans" .. tm()))
+
+    sleep(3)
 
 end 
